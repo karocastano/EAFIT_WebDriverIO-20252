@@ -12,7 +12,7 @@ class LoginPage extends Page {
     }
 
     get inputPassword () {
-        return $("//input[@name='password']"');
+        return $("//input[@name='password']");
     }
 
     get btnSubmit () {
